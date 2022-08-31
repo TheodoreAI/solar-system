@@ -17,6 +17,7 @@
 - initiate a scene
 - create a light source
 - create meshes with images and an object
+- [Threejs](https://threejs-journey.com/lessons/3#)
 
 ## Requirements
 
