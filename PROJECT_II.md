@@ -10,20 +10,25 @@
 
 ## Location
 
-- My own repo
+- My own GitHub repo
 
 ## Requirements
 
 - built in rust
+- uses the HTTP and TCP protocols to send/receive information
+- Listens for TCP connections on a socket
+- parses a small number of HTTP requests
+- creates a proper HTTP response
+- cargo best practices
+- Stretch goal: improve throughput of the server with a thread pool
 
 ## Proposed Approach
 
-- []()
+- [Web Server in Rust](https://doc.rust-lang.org/book/ch20-00-final-project-a-web-server.html)
 
 ## Technologies
 
 - Cargo library
-- [](URL here)
 
 ## Directory structure
 
@@ -33,4 +38,4 @@
 
 ## Proposed State
 
-- Basic GET/POST
+- Basic GET/POST/DELETE/UPDATE

@@ -2,11 +2,11 @@
 
 ## Summary
 
-- To simulate the orbit of Mercury using three.js, Newtonian orbital mechanics, and general relativity
+- To build the core mechanism of a chat application such as the chat thread, the user inputs, and being able to connect to the chat server through a client-side and begin chatting with other users
 
 ## Goal
 
-- The following application uses three.js to simulate the Sun and Mercury using Newtonian physics to get the orbit of Mercury, simultaneously simulating the perihelion shift of Mercury with General Relativity. The user will be able to navigate the environment using their mouse, the user will also be able to see the difference in the orbital angular velocity given the two different orbital periods.
+- The following application uses JavaScript, HTML, and CSS to create a simple front-end experience, leverages light-weight server-side framework express.js, and the library socket.io to let users chat with each other
 
 ## Location
 
@@ -14,43 +14,30 @@
 
 ## Requirements
 
-- create vue3 project and install threejs
-- integrate threejs to vue3
-- Create a scene
-- initiate the scene
-- create the Sun
-- Create a light source at the center of the sun
-- create a mesh with the geometry of the sun/mercury and the images
-- create mercury as a planet
-- give mercury a rotation about its own axis using rotateY
-- give mercury an orbit around the sun that is not circular but instead has an elliptical rotation:
-- stretch give mercury an orbit around the sun that takes into account the perihelion shift
-
-- VueJs3 front-end
+- Create a repo with a scalable JavaScript, HTML, and CSS pattern - express endpoints, socket.io, and use vanilla js for the front-end
+- The chat app will begin at a default state giving the user a random username
+- The chat application will have API endpoints to GET/SEND/DELETE/EDIT the chat messages
+- The UI will be designed using a napkin drawing
+- No state to save, but leave endpoints to connect to a NoSQL db like MongoDB
 
 ## Proposed Approach
 
-- [Solar System Demo](https://www.youtube.com/watch?v=KOSMzSyiEiA)
+- [freecodecamp](https://www.freecodecamp.org/news/simple-chat-application-in-node-js-using-express-mongoose-and-socket-io-ee62d94f5804/)
 
 ## Technologies
 
-- Vue3 Bootstrap Boilerplate v2.0.0
-- [Three.js](URL here)
+- Express.js
+- socket.io
+- JavaScript
+- HTML
+- CSS
 
 ## Directory structure
 
 ```bash
-cem-263-leveling
-├─ src
-│ ├─ App.vue
-│ ├─ components
-│ │ ├─ template.vue
-│ │ ├─ activity
-│ │ │ └─ SolarSystem.vue # component with drawing.js
-│ ├─ js
-│ │ └─ three.js
-│ └─ views
-│ └─ Main.vue # Where the component be rendered
+
 ```
 
 ## Proposed State
+
+[Stately mockup](https://stately.ai/registry/editor/d5538f23-73ea-449d-a2a7-036d9b51d06c)
