@@ -20,7 +20,7 @@
 - initiate the scene
 - create the Sun
 - Create a light source at the center of the sun
-- create meshes with the geometry of the sun/planets and the images
+- create meshes with the geometry of the sun/planets and images
 - create the first four planets
 - give planets a rotation about their own axis using rotateY
 - give planets an orbit around the Sun that is circular
