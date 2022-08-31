@@ -12,6 +12,12 @@
 
 - My own GitHub repo: solar-system
 
+## Research - howto
+- integrate threejs module with a Vue component
+- initiate a scene
+- create a light source
+- create meshes with images and an object
+
 ## Requirements
 
 - create Vue3 application and yarn install Threejs
