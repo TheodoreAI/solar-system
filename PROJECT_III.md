@@ -21,14 +21,12 @@
 
 ## Requirements
 
-- create Vue3 application and yarn install Threejs
+- Vue application that can import threejs
 - integrate Threejs to Vue - two way communication between the two (probably using callback to pass an object with the necessary data)
-- Create a scene
-- initiate the scene
-- create the Sun
-- Create a light source at the center of the sun
-- create meshes with the geometry of the sun/planets and images
-- create the first four planets
+- Have a solar system scene
+- Need a light source at the center of the sun
+- Planets
+- first four planets
 - give planets a rotation about their own axis using rotateY
 - give planets an orbit around the Sun that is circular
 - Stretch: do all nine planets
